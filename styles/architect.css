@@ -203,8 +203,19 @@
     grid-template-columns: repeat(5, 1fr);
   }
   .sponsor-companies img{
-    filter: grayscale(100%);
+    filter: grayscale(100%);}
+  /* footer starts here */
+  .footer{
+    max-width:1440px;
+    margin: 130px auto;
+    text-align: center;
+    padding:35px 80px;
   }
+  .copyright{
+    font-size:1.25rem;
+    font-weight:400;
+  }
+  
   /* responsive media query */
 
   @media screen and (max-width:576px) {
